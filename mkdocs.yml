@@ -37,7 +37,7 @@ extra:
 plugins:
   - search
   - blog:
-      blog_dir: 
+      blog_dir: blog
       post_url_format: "{slug}"
 
 nav:
