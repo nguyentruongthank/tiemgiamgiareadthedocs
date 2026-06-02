@@ -1,8 +1,8 @@
-site_name: TienGiamGia Docs
+site_name: TiemGiamGia Docs
 site_url: https://tiemgiamgia.readthedocs.io
 docs_dir: docs
 theme:
-  name: material  # hoặc readthedocs
+  name: readthedocs
 
 nav:
   - Trang chủ: index.md
