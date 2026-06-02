@@ -1,2 +1,5 @@
 mkdocs
+mkdocs-gitbook
 mkdocs-material
+mkdocs-bootstrap
+mkdocs-sitemap-plugin
