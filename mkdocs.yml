@@ -2,7 +2,7 @@ site_name: TiemGiamGia Docs
 site_url: https://tiemgiamgia.readthedocs.io
 docs_dir: docs
 theme:
-  name: readthedocs
+  name: mkdocs
 
 nav:
   - Trang chủ: index.md
