@@ -1,6 +1,9 @@
 #readthedocs-embed-flyout,
+#readthedocs-embed-flyout iframe,
 .rst-versions,
 .rst-other-versions,
-[data-toggle="rst-versions"] {
+.readthedocs-flyout,
+.readthedocsify {
     display: none !important;
+    visibility: hidden !important;
 }
