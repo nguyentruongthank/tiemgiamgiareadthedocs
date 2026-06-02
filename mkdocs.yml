@@ -3,6 +3,11 @@ site_url: https://tiemgiamgia.readthedocs.io
 docs_dir: docs
 theme:
   name: mkdocs
+  analytics:
+    gtag: G-G4V56TPB1W
+  locale: vi  
+  
 
 nav:
   - Trang chủ: index.md
+
