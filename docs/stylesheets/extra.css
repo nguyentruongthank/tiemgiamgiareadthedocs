@@ -1,0 +1,6 @@
+#readthedocs-embed-flyout,
+.rst-versions,
+.rst-other-versions,
+[data-toggle="rst-versions"] {
+    display: none !important;
+}
