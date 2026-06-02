@@ -2,16 +2,58 @@ site_name: TiemGiamGia Docs
 site_url: https://docs.tiemgiamgia.com
 docs_dir: docs
 theme:
-  name: bootstrap
+  name: material
+  language: vi
   custom_dir: overrides
   static_templates:
     - sitemaps.xml
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+  palette:
+    scheme: default
+    primary: white
+    accent: indigo
+extra:
+  generator: false
   analytics:
-    gtag: G-G4V56TPB1W
-  
+    provider: google
+    property: G-G4V56TPB1W
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/tiemgiamgia
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/tiemgiamgia
+    - icon: fontawesome/brands/x-twitter 
+      link: https://x.com/tiemgiamgia
+    
 plugins:
   - search
+  - blog:
+      blog_dir: 
+      post_url_format: "{slug}"
 
 nav:
   - Trang chủ: index.md
+  - Giới thiệu: about.md
+  - Chính sách bảo mật: privacy.md
+  - Điều khoản sử dụng: terms.md
+  - Liên hệ: contact.md
+  - Blog: blog/index.md
+  - Mã Giảm Giá: https://tiemgiamgia.com/voucher/
 
+copyright: Copyright &copy; TiemGiamGia Docs
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
