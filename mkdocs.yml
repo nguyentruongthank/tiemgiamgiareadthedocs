@@ -1,5 +1,5 @@
 site_name: TiemGiamGia Docs
-site_url: https://tiemgiamgia.readthedocs.io
+site_url: https://docs.tiemgiamgia.com
 docs_dir: docs
 theme:
   name: mkdocs
