@@ -2,7 +2,7 @@ site_name: TiemGiamGia Docs
 site_url: https://docs.tiemgiamgia.com
 docs_dir: docs
 theme:
-  name: gitbook
+  name: mkdocs
   analytics:
     gtag: G-G4V56TPB1W
   locale: vi  
